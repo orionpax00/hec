@@ -1,0 +1,249 @@
+/*
+Theme Name: Dolomia
+Theme URI: http://themetrademark.com/demo/dolomia
+Author: Vergatheme
+Author URI: http://vergatheme.com/
+Description: In 2017, our default theme lets you create a responsive magazine website with a sleek, modern design. Feature your favorite homepage content in either a grid or a slider. Use the three widget areas to customize your website, and change your content's layout with a full-width page template and a contributor page to show off your authors. Creating a magazine website with WordPress has never been easier.
+Version: 1.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags:  custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready, accessibility-ready
+Text Domain: dolomia 
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+/**
+ * Table of Contents:
+ *
+ * 1.0 - Repeatable Patterns
+ * 2.0 - CALENDAR STYLES WIDGET
+
+ * ----------------------------------------------------------------------------
+ */
+
+/* 1.0 Repeatable Patterns
+-------------------------------------------------------------- */
+
+/*login admin header menu*/
+.logged-in #main-wrap #header{
+    top: 32px;
+}
+
+.children{
+    margin-bottom: 50px;
+    margin-left: 16.66666667%;
+    width: 83.33333333%;
+
+}
+.tnp-field-email label{
+    display: none !important;
+}
+.btn-alt:hover {
+    background-color: #CBBD9A;
+    color: white;
+    transition: all .4s ease;
+}
+.btn-alt {
+    height: 40px;
+    line-height: 40px;
+    font-weight: 400;
+    text-transform: none;
+    background-color: transparent;
+    border: 1px solid #CBBD9A;
+    color: #CBBD9A;
+    transition: all .4s ease;
+    text-transform: uppercase;
+    border-radius: 2px;
+    padding-right: 30px;
+    padding-left: 30px;
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-family: "Roboto", sans-serif;
+    display: inline-block;
+    overflow: hidden;
+    outline: none;
+}
+
+#home-wrap #news .news-items .single-news .padding-leftright-null .image{
+    height: 311px;
+}
+
+aside.sidebar form .form-input span.form-button {
+    padding-top: 10px;
+}
+
+aside.sidebar .widget-wrapper .widget_categories h4{
+    text-transform: uppercase;
+    position: relative;
+    letter-spacing: 0;
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 100;
+    color: #2F2911;
+    margin-bottom: 18px;
+}
+
+aside.sidebar .widget-wrapper .widget_categories li a{
+    color: #6E6B66;
+    font-family: "Trirong", serif;
+    font-size: 14px;
+    line-height: 34px;
+    letter-spacing: 0;
+    margin-bottom: 9px;
+    font-weight: 300;
+}
+
+/*#post-wrap #share .share-btn i{
+    margin-left: auto;
+}
+*/
+.trek-map iframe{
+    width: 100%;
+}
+
+.hiker ul li a i{
+    margin-top: 13px; 
+    /*margin-left: auto;*/
+}
+
+/*flexslider*/
+.custom-slider .vc_column_container>.vc_column-inner, .custom-fullpage-wrap .vc_column_container>.vc_column-inner, .custom-testimonials .vc_column-inner{
+    box-sizing: border-box;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    width: 100%;
+}
+
+/*last news*/
+#home-wrap .wpb_row .custom-news .vc_column-inner .single-news{
+    /*height: 450px;*/
+}
+
+#home-wrap .wpb_row .custom-news .vc_column-inner .single-news .article .padding-leftright-null{
+    height: auto;
+    display: inline-grid;
+}
+
+/*team*/
+#home-wrap #team .vc_column_container .vc_column-inner .wpb_wrapper .single-person .content .social a i{
+    padding-top: 12px;
+    padding-right: 2px;
+}
+
+/*flexslider-nav*/
+#main-wrap #page-content #flexslider-nav .slider-navigation .flex-next .ion-ios-arrow-thin-right{
+    padding-right: 40px;
+}
+
+/*search-box menu*/
+#menu-classic > .menu-holder > .search{
+    font-size: 20px;
+    line-height: 16px;
+    margin-right: -40px !important;
+    list-style: none !important;
+    float: right !important;
+    margin-top: -25px !important;
+
+}
+
+/*footer menu 1,2*/
+.full-width .container .padding-leftright-null .widget_nav_menu .menu-footer-menu-1-container ul li, .full-width .container .padding-leftright-null .widget_nav_menu .menu-footer-menu-2-container ul li{
+    color: #d1d2d3;
+    font-family: "Trirong", serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+}
+
+.full-width .container .padding-leftright-null .widget_nav_menu .menu-footer-menu-1-container ul li a, .full-width .container .padding-leftright-null .widget_nav_menu .menu-footer-menu-2-container ul li a{
+    color: #d1d2d3;
+    font-family: "Trirong", serif;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 16px;
+    font-weight: 300;
+}
+
+/*=========fixbug_7/6======*/
+#post-wrap .text #share .share-btn i{
+    padding: 10px;
+    margin-right: -3px;
+    /*margin-top: 15px;*/
+}
+
+#post-wrap #share .share-btn i{
+    margin-top: -20px;
+}
+
+
+/*footer newsletter*/
+.tnp-field label{
+    padding-bottom: 5px;
+    color: #fff !important;
+}
+
+.tnp-widget label{
+    display: block;
+    color: #fff;
+}
+
+/*element*/
+.padding-onlytop-md .image-carousel .owl-controls .owl-nav span i{
+    padding-top: 3px;
+}
+
+/*newsletter*/
+.full-width .no-margin .padding-leftright-null .widget_newsletterwidget .tnp-widget form .tnp-field-button{
+    width: 80px;
+    height: 40px;
+    right: 0;
+    top: 0px;
+    font-size: 12px;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 38px;
+    color: white;
+    /*border-radius: 0 2px 2px 0;*/
+    text-align: center;
+    transition: all .4s ease;
+    float: right;
+    margin-top: -50px;
+}
+
+.full-width .no-margin .padding-leftright-null .widget_newsletterwidget .tnp-widget form .tnp-field-button .tnp-submit{
+    background-color: #CBBD9A;
+    width: 80px;
+    height: 40px;
+    right: 0;
+    top: 0px;
+    font-size: 12px;
+    border-radius: 0 2px 2px 0;
+}
+
+.full-width .no-margin .padding-leftright-null .widget_newsletterwidget .tnp-widget form .tnp-field-email .tnp-email{
+    border-radius: 2px;
+}
+
+.full-width .no-margin .padding-leftright-null .widget_newsletterwidget .tnp-widget form .tnp-field-button .tnp-submit:hover{
+    background-color: #2F2911;
+  border-radius: 0 2px 2px 0;
+  transition: all .4s ease;
+}
+.social li a i.icon{
+    margin-left: 0px !important;
+    display: initial !important;
+}
+
+/*5/7 */
+.custom-treks{
+    display:flex;
+}
+/*#main-wrap .fixed{
+    width:1920px;
+}*/
+#page-wrap{
+   display:grid;
+}
