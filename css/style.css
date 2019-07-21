@@ -8,7 +8,7 @@ Version: 1.1
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags:  custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready, accessibility-ready
-Text Domain: dolomia 
+Text Domain: dolomia
 
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
@@ -104,7 +104,7 @@ aside.sidebar .widget-wrapper .widget_categories li a{
 }
 
 .hiker ul li a i{
-    margin-top: 13px; 
+    margin-top: 13px;
     /*margin-left: auto;*/
 }
 
@@ -246,4 +246,12 @@ aside.sidebar .widget-wrapper .widget_categories li a{
 }*/
 #page-wrap{
    display:grid;
+}
+
+.vertical-center-carousel{
+  margin-top:47%
+}
+
+.vertical-center-carousela4{
+  margin-top:37%
 }
